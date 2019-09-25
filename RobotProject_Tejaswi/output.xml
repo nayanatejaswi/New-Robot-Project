@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.1.2 (Python 3.7.3 on win32)" generated="20190925 14:01:01.996" rpa="false">
+<suite id="s1" name="RobotProject Tejaswi" source="C:\Users\lenova\eclipse-workspace\RobotProject_Tejaswi">
+<suite id="s1-s1" name="Test" source="C:\Users\lenova\eclipse-workspace\RobotProject_Tejaswi\Test">
+<suite id="s1-s1-s1" name="TestSuite1" source="C:\Users\lenova\eclipse-workspace\RobotProject_Tejaswi\Test\TestSuite1.robot">
+<test id="s1-s1-s1-t1" name="FirstSeleniumTest">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the given ``url``.</doc>
+<arguments>
+<arg>https://www.google.com</arg>
+<arg>chrome</arg>
+</arguments>
+<msg timestamp="20190925 14:01:03.887" level="INFO">Opening browser 'chrome' to base url 'https://www.google.com'.</msg>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg timestamp="20190925 14:01:26.019" level="INFO">Cannot capture screenshot because no browser is open.</msg>
+<status status="PASS" starttime="20190925 14:01:25.973" endtime="20190925 14:01:26.020"></status>
+</kw>
+<msg timestamp="20190925 14:01:26.113" level="FAIL">SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 75
+</msg>
+<status status="FAIL" starttime="20190925 14:01:03.886" endtime="20190925 14:01:26.115"></status>
+</kw>
+<status status="FAIL" starttime="20190925 14:01:03.879" endtime="20190925 14:01:26.118" critical="yes">SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 75
+</status>
+</test>
+<status status="FAIL" starttime="20190925 14:01:02.934" endtime="20190925 14:01:26.123"></status>
+</suite>
+<status status="FAIL" starttime="20190925 14:01:02.925" endtime="20190925 14:01:26.135"></status>
+</suite>
+<status status="FAIL" starttime="20190925 14:01:02.827" endtime="20190925 14:01:26.144"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1">Critical Tests</stat>
+<stat pass="0" fail="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" id="s1" name="RobotProject Tejaswi">RobotProject Tejaswi</stat>
+<stat pass="0" fail="1" id="s1-s1" name="Test">RobotProject Tejaswi.Test</stat>
+<stat pass="0" fail="1" id="s1-s1-s1" name="TestSuite1">RobotProject Tejaswi.Test.TestSuite1</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
